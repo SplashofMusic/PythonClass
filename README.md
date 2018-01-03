@@ -8,3 +8,5 @@ This project uses a basis of neural network technology. In order for the neural 
 To train the classifier, we used a well known arcitecture called VGG16. The Python frameworks we utilized were tensorflow and karas. The karas framework makes it easy to take an existing VGG16 model and retrain it to classify different images.
 ### Output:
 After the network is trained, we saved the work to a karas model file so we could run it later. The output is a probability of which breed it looks like the most. The classifier takes the breed with the highest probability and that would be the result.
+### Future Improvements:
+The current classifier is severly overfitting. In the future, we need to connect a whole lot more training images.
